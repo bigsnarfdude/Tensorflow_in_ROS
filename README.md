@@ -2,6 +2,15 @@
 I made a ros-node to predict numbers from camera image.  
 I used Tensorflow tutorial Deep MNIST model(https://www.tensorflow.org/versions/r0.11/tutorials/mnist/pros/index.html)
 
+```
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
+
+sudo pip install –upgrade $TF_BINARY_URL
+```
+
+
+
+
 Before you use this, you must install some programs.
 
 * Install Tensorflow (see https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html)  
